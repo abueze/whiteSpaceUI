@@ -1,0 +1,28 @@
+/* Sports */
+#sports {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-evenly;
+    /* main axis */
+    align-items: center;
+    /* center axis */
+    padding: 3.5rem;
+}
+
+/* Shared styles for sections */
+.sport {
+    width: 32rem;
+    background-image: linear-gradient(135deg, #90f7ec 10%, #32ccbc 100%);
+
+    &_basketball {
+        padding: 2.7rem;
+
+        & h2 {
+            margin-bottom: 1rem;
+        }
+
+        & p {
+            line-height: 1.6;
+        }
+    }
+}
